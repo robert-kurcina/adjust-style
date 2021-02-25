@@ -1,0 +1,20 @@
+{
+
+    "manifest_version": 2,
+    "name": "adjust-style",
+    "version": "1.0",
+  
+    "description": "alters the styling of http://theminiaturespage.com/",
+  
+    "icons": {
+      "48": "icons/adjust-style-48.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.theminiaturespage.com/*"],
+        "js": ["main.js"]
+      }
+    ]
+  
+  }
