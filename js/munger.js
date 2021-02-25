@@ -1,3 +1,7 @@
+function resetStyles() {
+
+}
+
 function mungePathnameProp() {
     let pathnameProp = window.location.pathname;
     let mungedPathname = pathnameProp.replaceAll('.', '');
